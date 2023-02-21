@@ -57,4 +57,20 @@ class ExpressionLanguage extends SymfonyExpressionLanguage implements \Serializa
     {
         $this->__construct();
     }
+
+    /**
+     * @return null
+     */
+    public function _serialize()
+    {
+        return null;
+    }
+
+    /**
+     * @param string $serialized
+     */
+    public function _unserialize($serialized)
+    {
+        $this->__construct();
+    }
 }
