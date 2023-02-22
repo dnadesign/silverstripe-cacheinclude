@@ -5,7 +5,7 @@ namespace Heyday\CacheInclude;
 use SilverStripe\ORM\DataList;
 use Symfony\Component\ExpressionLanguage\ExpressionLanguage as SymfonyExpressionLanguage;
 
-class ExpressionLanguage extends SymfonyExpressionLanguage implements \Serializable
+class ExpressionLanguage extends SymfonyExpressionLanguage
 {
     protected function registerFunctions()
     {

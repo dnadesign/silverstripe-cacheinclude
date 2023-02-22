@@ -15,6 +15,7 @@
         }
     ],
     "require": {
+        "php": "^8",
         "silverstripe/framework": "^4.2",
         "symfony/yaml": "^3.2 || ^4",
         "symfony/expression-language": "^3.2"
