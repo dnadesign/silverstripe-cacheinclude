@@ -4,6 +4,8 @@
 
 Template caching based on urls not DB queries.
 
+## Forked for PHP 8 compatibility
+
 ## Features
 
 * Cache keys are built from information available in request object (means no DB calls)
